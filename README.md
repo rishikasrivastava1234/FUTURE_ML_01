@@ -155,6 +155,20 @@ Final evaluation metrics of the forecasting model.
 
 ---
 
+## Key Insights
+
+Analysis of the sales data revealed several meaningful business patterns:
+
+* Sales performance varied considerably across stores, with a small number of stores contributing the highest share of total revenue.
+* Holiday weeks showed slightly higher average sales compared to non-holiday weeks, indicating increased customer spending during special occasions.
+* Department and Store were identified as the most influential features in predicting weekly sales, according to the feature importance analysis.
+* Time-based features such as Week and Month helped capture recurring sales patterns and seasonal trends.
+* The Random Forest model achieved strong predictive accuracy with an R² score of 0.969, demonstrating its effectiveness for sales forecasting on this dataset.
+
+These insights highlight how historical sales data can be used to support inventory management, demand planning, and business decision-making.
+
+---
+
 ## Key Learnings
 
 Through this project, I gained practical experience in data preprocessing, feature engineering, exploratory data analysis, machine learning model development, and model evaluation. Working with real-world retail sales data also helped me better understand how forecasting techniques can support business planning and decision-making.
